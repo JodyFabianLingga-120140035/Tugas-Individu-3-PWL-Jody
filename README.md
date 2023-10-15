@@ -42,4 +42,10 @@ Program ini memiliki fitur navigasi menggunakan library react-router-dom dan ter
 Halaman Contact Memiliki fitur untuk menerima input teks dari user. Selanjutnya akan ditreruskan dan ditampilkan pada halaman pesan (daftar pesan).
 
 Lanhkah selanjutnya, melakukan testing dengan menjalankan `npm test.` Berikut adalah screenshot dari hasilnya.
+
 ![test](test.png)
+
+### Profil Mahasiswa
+- Nama : Jody Fabian Lingga
+- NIM  : 120140035
+  
