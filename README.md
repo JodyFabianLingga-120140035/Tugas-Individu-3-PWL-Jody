@@ -27,19 +27,15 @@ Program ini memiliki 4 Komponen yaitu:
 
 ### Halaman/Navigasi
 Program ini memiliki fitur navigasi menggunakan library react-router-dom dan terdapat 4 halaman:
-- Beranda
-
+- Beranda : 
   Pada Tampilan beranda terdapat Keempat komponen yaitu Navigation Bar, Header, Main Content, Footer.
   Dimana Navigation Bar berupa Lamp, tentang, kontak, pesan.
   **Perlu diperhatikan untuk settingan tampilan pada program ini agar disesuaikan terhadap browser dengan proporsi zomm 80%**
-- Tentang
-
+- Tentang :
   Halaman tentang saya isi dengan data diri saya karena saya tidak tau mau buat apa.
-- Kontak
-
+- Kontak :
   Tampilan kontak berisi tampilan pengiriman pesan dan terdapat 3 imput yaitu nama, email dan instansi.
-- Pesan
-
-   Tampilan halaman pesan berisi pesan yang sudah di input pada halaman Kontak.
+- Pesan :
+  Tampilan halaman pesan berisi pesan yang sudah di input pada halaman Kontak.
 
 ### Fitur Pesan
