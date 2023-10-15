@@ -2,49 +2,44 @@
 
 This is the 'Tugas Individu 3 Pemrograman Web Lanjut' repository which contains program code for a web app. This app was create using [Javascript](https://www.javascript.com/) with [Node.js](https://nodejs.org/en/docs) & [React.js](https://react.dev/).
 
-## How To Run?
-
-Before you can run this app, make sure that you have installed `Node.js` and `Git` on your computer (Please note, Git and Github are not same!)
-
-### Clone This Repository
-
-Clone this repository on your computer through your computer's terminal by running the following command:
-
-```
-git clone https://github.com/henhen02/Tugas-Individu-3-PWL.git
-```
-
-Wait until the clone process is complete to proceed with the directory change step through your computer’s terminal.
-
-### Change To App Directory
-
-The next step is to change directories. If you are using Windows, you can use the following command:
-
-```
-cd Tugas-Individu-3-PWL
-```
-
-### Depedencies Installation
-
-Before you can run this app, you are required to install the necessary dependencies. Use the following command:
-
-```
-npm i
-```
-
-The dependency installation process will take about 5-10 minutes (depending on your internet speed). If the dependency installation fails and an error message appears, try to make sure that you have installed [Node.js](https://nodejs.org/en).
-
-### Start For Run The App
-
-This app runs in development mode, you can run this app using the following command:
-
+## Available Scripts
+In the project directory, you can run:
 ```
 npm start
 ```
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-Wait until your computer has finished the compilation process and opens a tab in your default browser.
+The page will reload when you make changes.
+You may also see any lint errors in the console.
+```
+npm test
+```
+## Web Sederhana
+Program ini dibuat untuk memenuhi tugas individu 3 Pemrograman Web Lanjut.
 
-## Author
+### Komponen
+Program ini memiliki 4 Komponen yaitu:
+- Navigation Bar
+- Header
+- Main Content
+- Footer
 
-Hendri Aldi Zulfan [henhen02](https://github.com/henhen02/)
-hendri.120140186@student.itera.ac.id (student) | hendri21072002@gmail.com (personal)
+### Halaman/Navigasi
+Program ini memiliki fitur navigasi menggunakan library react-router-dom dan terdapat 4 halaman:
+- Beranda : 
+  Pada Tampilan beranda terdapat Keempat komponen yaitu Navigation Bar, Header, Main Content, Footer.
+  Dimana Navigation Bar berupa Lamp, tentang, kontak, pesan.
+  **Perlu diperhatikan untuk settingan tampilan pada program ini agar disesuaikan terhadap browser dengan proporsi zomm 80%**
+- Tentang :
+  Halaman tentang saya isi dengan data diri saya karena saya tidak tau mau buat apa.
+- Kontak :
+  Tampilan kontak berisi tampilan pengiriman pesan dan terdapat 3 imput yaitu nama, email dan instansi.
+- Pesan :
+  Tampilan halaman pesan berisi pesan yang sudah di input pada halaman Kontak.
+
+### Fitur Kontak
+Halaman Contact Memiliki fitur untuk menerima input teks dari user. Selanjutnya akan ditreruskan dan ditampilkan pada halaman pesan (daftar pesan).
+
+Lanhkah selanjutnya, melakukan testing dengan menjalankan `npm test.` Berikut adalah screenshot dari hasilnya.
+![test](test.png)
